@@ -8,7 +8,7 @@ import os
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/forecast"
 api_key = os.environ.get("OWM_API_KEY")
 account_sid = os.environ.get("TWILIO_ACCOUNT_SID")
-auth_token = os.environ.get("TWILIO_AUTH_TOKEN)
+auth_token = os.environ.get("TWILIO_AUTH_TOKEN")
 
 api_parameters = {
     "lat": 50.447731,
